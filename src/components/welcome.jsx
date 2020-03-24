@@ -52,7 +52,7 @@ function Welcome(){
                 </button>
                 </a>
 
-                <a href="http://drive.google.com/open?id=12mcYoo1Ej_c00VkzA2VDt3Cef5LlQHZy" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/open?id=1Rwo2mKlF093bj8-YOMW7WA6tv7VStx_P" target="_blank" rel="noopener noreferrer">
                     <button className="btn">
                         Review CV
                 </button>
