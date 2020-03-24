@@ -1,0 +1,16 @@
+[[redirects]]
+
+from = "/*"
+
+to ="./src/components/index/home.jsx"
+
+status = 200
+
+
+[[redirects]]
+
+from = "/about/*"
+
+to ="./src/components/about/about.jsx"
+
+status = 200
