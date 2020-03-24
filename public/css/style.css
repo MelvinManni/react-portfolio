@@ -10,9 +10,7 @@
     outline: none;
 }
 
-#navbar{
-    background-color: rgba(255, 255, 255, 0.924);
-}
+
 
 button:focus, input:focus{
     outline: none;
@@ -28,6 +26,38 @@ button:focus, input:focus{
     padding-bottom: 40px;
 }
 
+/* ====toper=== */
+
+.back-top{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 200;
+}
+
+.back-top button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #018786;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    transition: 3s ease ;
+    display: none;
+}
+
+.back-top button i{
+    position: relative;
+    /* font-size: 35px; */
+}
+
+
 /* ===NAV=== */
 nav{
     width: 100%;
@@ -37,12 +67,9 @@ nav{
     font-family: 'playfair';
     font-weight: 500;
     font-size: 22px;
-    color: black;
+
 }
 
-.nav-brand:hover{
-    color: black;
-}
 .navbar-light .navbar-toggler,
 .navbar-light .navbar-toggler:focus{
   background: none;
@@ -82,7 +109,7 @@ nav{
     font-family: 'poppins';
     font-weight: 500;
     font-size: 16px;
-    padding-left: 40px !important;
+    margin-left: 40px !important;
 }
 
 .navbar-toggler span:nth-child(1) {
@@ -120,6 +147,7 @@ nav{
 }
 
 #light{
+ 
     font-size: 18px;
 
 }
@@ -220,7 +248,7 @@ input[type=submit]{
 }
 
 .welcome {
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 30px;
 }
 
@@ -496,15 +524,44 @@ div .welcome{
     padding-left: 60px;
 }
 
+nav .navbar-collapse .navbar-nav .nav-link{
+    transition: 0.6s ease all;
+}
+
 nav .navbar-collapse .navbar-nav .nav-link:hover{
     color: #018787;
 }
+
+.nav-line{
+    width: 0;
+    height: 2px;
+    background-color: #018786;
+    margin-left: 45px;
+    position: relative;
+    /* left: -5px; */
+    left: -10px;
+    top: -25px;
+    transform: rotate(100deg);
+    transition: 0.8s ease all;
+    
+}
+
+nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
+    width: 15px;
+    animation: 1.9s blinkBg infinite;
+    animation-delay: 0.8s;
+
+}
 /* ===MEDIA=== */
 
-@media all and (max-width:1024px){
+@media all and (max-width:800px){
     .switcher{
         position: relative;
         right: -10px;
+    }
+
+    .nav-line{
+        left: -15px ;
     }
 
     .nav-link{
@@ -534,8 +591,20 @@ nav .navbar-collapse .navbar-nav .nav-link:hover{
         align-items: flex-start;
     }
 
+    .contact{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+
     
 }
+
 
 @media all and (max-width:640px){
     .project__card{

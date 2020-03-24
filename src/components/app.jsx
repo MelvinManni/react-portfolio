@@ -19,6 +19,22 @@ const GlobaStyle = createGlobalStyle `
     props.theme.mode === 'dark' ? '#e2c41b' : 'black'};
     }
 
+     nav .navbar-collapse .navbar-nav .nav-link{
+            color: ${props =>
+    props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.896)' : 'black'};
+        }
+    }
+
+    nav nav-brand p{
+        
+    }
+
+    .back-top button{
+            color: ${props =>
+        props.theme.mode === 'dark' ? '#121212' : '#fff'};
+        }
+    }
+
 `;
 
 

@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from './../navBar/navBar';
+import Navbar from '../navBar/navBar';
 import Welcome from './../welcome';
 import Projects from './../projects/projects';
 import Contact from './../contact/contact';
 import Footer from './../footer';
 import Stack from './../stack';
+import Top from './../toTop';
 
 
 
@@ -15,7 +16,9 @@ function Home() {
 
     return <div>
 
-        <Navbar />
+        <div>
+            <Navbar />
+        </div>
 
 
         <section className="fadeIn">
@@ -33,7 +36,7 @@ function Home() {
         <section className="contactSect">
             <Contact />
         </section>
-
+        <Top />
         <footer>
             <Footer />
         </footer>
