@@ -1,0 +1,11 @@
+const myStory = `I am <span class="bg">Nnamani Melvin Kosisochukwu</span>, a software developer, student, lover of anime/video games and lover of JavaScript. I am a student in the University of Port Harcourt, Rivers State Nigeria. I major in Computer Science. <br/>
+                            I started my programming journey in 2018 but before then i have dabbled a little and ended up pulling back. Programming is exactly what you think it is... <span class="bg">writing beautiful codes that work</span> and trying to get rid of as much bugs as possible while being powered by coffee. That is not exactly why i want to be a Software Enginneer/developer, the real reason why i love what i do is because of those little moments when you solve a problem or learn something new amid a project. The joy and trophy of every programmer is writing a code and it works! you feel this happiness in you, if you have ever built anything, no matter how small you probably understand what i mean. Those moments are what always <span class="bg">motivate me and keep me going</span>. <br/>
+                            I got to attend my first Tech Event on November 2019, it was "Spectacular" ... i got to connect with a lot of amazing developers and engineers. Before the tech event i have been moderately active in the local tech community (Code Club Uniport). The dream is to be a fullstack Javascript Developer and have as much fun as possible while learning the necessary skills needed to get to the milestones set before me. <br/>
+                            Through my dev journey i have made a <span class="bg">few mistakes and learned a lot along the way</span>, The No.1 advice i will give to other begineers that are completely new in tech/programming is to never skip fundamentals, take your time and gound yourself in the fundamentals. Also try to build as many things as possible. YES! you learn by building and researching issues you come across than you do from repetitively watching tutorial videos.  <br/>
+                            Aside from writing beautiful codes i also enjoy meeting new people, sharing ideas, playing video games and watching movies. <br/>`;
+
+
+
+
+
+export default myStory;

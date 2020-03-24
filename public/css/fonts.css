@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'lato';
+    src: url("./../assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'baloo';
+    src: url("./../assets/fonts/Baloo_2/Baloo2-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'baloo';
+    src: url("./../assets/fonts/Baloo_2/Baloo2-Regular.ttf");
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: 'poppins';
+    src: url("./../assets/fonts/Poppins/Poppins-Medium.ttf");
+    font-weight: 500;
+}
+
+
+@font-face{
+    font-family: 'poppins';
+    src: url("./../assets/fonts/Poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'poppins';
+    src: url("./../assets/fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'poppins';
+    src: url("./../assets/fonts/Poppins/Poppins-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: 'playfair';
+    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'playfair';
+    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Medium.ttf");
+    font-weight:500 ;
+}
+
+@font-face{
+    font-family: 'playfair';
+    src: url("./../assets/fonts/Playfair/PlayfairDisplay-SemiBold.ttf");
+    font-weight:600 ;
+}
+
+@font-face{
+    font-family: 'playfair';
+    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Bold.ttf");
+    font-weight:700 ;
+}
