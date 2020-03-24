@@ -490,6 +490,10 @@ footer{
         position: relative;
         right: -10px;
     }
+    .nav-link, .switchNav{
+    
+        margin-left:0px;
+    }
 }
 
 @media all and (max-width:640px){
