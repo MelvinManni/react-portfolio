@@ -494,6 +494,11 @@ footer{
     
         margin-left:0px;
     }
+
+    .welcome {
+    
+     padding-left: 5px;
+    }
 }
 
 @media all and (max-width:640px){
