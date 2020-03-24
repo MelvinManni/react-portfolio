@@ -18,7 +18,7 @@ function Home() {
         <Navbar />
 
 
-        <section className="welcome fadeIn">
+        <section className="fadeIn">
             <Welcome  />
         </section>
 

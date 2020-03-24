@@ -5,6 +5,7 @@
     line-height: 30px;
 }
 
+
 *:focus, *:hover, *:active{
     outline: none;
 }
@@ -137,7 +138,7 @@ body{
     font-size: 14px;
     font-family: 'baloo';
     font-weight: 400;
-    transition: 1s ease all;
+    transition: 0.6s ease all;
 }
 
 section{
@@ -483,6 +484,15 @@ footer{
     animation: 0.6s blink 1;
 }
 
+
+
+section .welcome .fadeIn{
+    padding-left: 10px;
+}
+
+div .welcome{
+    padding-left: 60px;
+}
 /* ===MEDIA=== */
 
 @media all and (max-width:1024px){
@@ -490,6 +500,22 @@ footer{
         position: relative;
         right: -10px;
     }
+
+    .nav-link{
+        margin-left: 0px;
+    }
+
+        
+    div .welcome {
+        padding-left: 10px;
+    }
+
+
+    .project{
+        padding: 0;
+    }
+
+    
 }
 
 @media all and (max-width:640px){

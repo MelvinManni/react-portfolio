@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Main from './main';
 import {  createGlobalStyle, ThemeProvider } from 'styled-components';
-import useTheme from './src/components/useState';
+import useTheme from './useState';
 import theme from 'styled-theming';
 
 
