@@ -8,7 +8,15 @@
 
 from = "/*"
 
-to ="./public/index.html"
+to ="/index.html"
 
 status = 200
 
+
+[[redirects]]
+
+from = "/about/*"
+
+to ="index.html"
+
+status = 200
