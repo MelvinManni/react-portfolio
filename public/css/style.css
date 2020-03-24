@@ -140,6 +140,7 @@ body{
     font-family: 'baloo';
     font-weight: 400;
     transition: 0.6s ease all;
+    width: 100%;
 }
 
 section{
@@ -507,7 +508,13 @@ nav .navbar-collapse .navbar-nav .nav-link:hover{
     }
 
     .nav-link{
-        margin-left: 0px;
+        margin: 0;
+        /* align-self: flex-start; */
+    }
+
+    .nav-brand{
+        position: relative;
+        top: 5px;
     }
 
         
