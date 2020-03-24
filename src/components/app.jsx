@@ -3,7 +3,7 @@ import Main from './main';
 import {  createGlobalStyle, ThemeProvider } from 'styled-components';
 import useTheme from './useState';
 import theme from 'styled-theming';
-
+// import AddToHomescreen from 'react-add-to-homescreen';
 
 const GlobaStyle = createGlobalStyle `
 
@@ -22,10 +22,12 @@ const GlobaStyle = createGlobalStyle `
 `;
 
 
+ 
 
 
 
 function App(){
+
 
   const  theme = useTheme()
     
@@ -34,12 +36,20 @@ function App(){
             <GlobaStyle />
             <div>
                 <Main />
+                {/* <AddToHomescreen onAddToHomescreenClick={this.handleAddToHomescreenClick} /> */}
             </div>
         </ThemeProvider>
     )
 
 } 
 
+
+
+// let handleAddToHomescreenClick = function() {
+//     alert(`
+//     1. Open Share menu
+//     2. Tap on "Add to Home Screen" button`);
+// };
 
 
 export default App;
