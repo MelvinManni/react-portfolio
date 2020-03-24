@@ -30,7 +30,7 @@ button:focus, input:focus{
 
 /* ===NAV=== */
 nav{
-    min-height: 70px;
+    width: 100%;
 }
 
 .nav-brand{

@@ -1,16 +1,14 @@
+[build]
+  command = "npm run build"
+  publish="path-to-react-app/build"
+  base = "path-to-react-app"
+
+
 [[redirects]]
 
 from = "/*"
 
-to ="./src/components/index/home.jsx"
+to ="./public/index.html"
 
 status = 200
 
-
-[[redirects]]
-
-from = "/about/*"
-
-to ="./src/components/about/about.jsx"
-
-status = 200
