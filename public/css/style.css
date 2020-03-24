@@ -82,7 +82,7 @@ nav{
     font-family: 'poppins';
     font-weight: 500;
     font-size: 16px;
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 .navbar-toggler span:nth-child(1) {
@@ -509,6 +509,7 @@ nav .navbar-collapse .navbar-nav .nav-link:hover{
 
     .nav-link{
         margin: 0;
+        padding-left: 0;
         /* align-self: flex-start; */
     }
 
