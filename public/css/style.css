@@ -358,12 +358,29 @@ input[type=submit]{
 }
 
 .project__link{
+    width: 80px;
     height: 30px;
     padding: 3px;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.233);
     box-shadow:  -1px -1px 3px 0 #fff,
                 1px 1px 3px 0 rgba(128, 128, 128, 0.233) ;
+}
+
+.project__link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+    top: -4px;
+}
+
+.project__link a i{
+    position: relative;
+    top: -8px;
+    right: -3px;
+    font-size: 10px;
 }
 
 .project__tag{
