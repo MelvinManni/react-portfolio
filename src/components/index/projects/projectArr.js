@@ -40,7 +40,7 @@ let projectAr = [
         id: 5,
         link: "http://melvinmanni.github.io/Agrow-Farm/",
         title: "Agrow-Farm",
-        description: "Agrow farm is a template site for and Agro-business",
+        description: "Agrow farm is a template site for an Agro based business",
         tag: "#website",
         techs: "JavaScript Bootsrap",
     },
@@ -69,6 +69,16 @@ let projectAr = [
         title: "Web Mp3 Player",
         description: "This is a static mp3 player site preloaded with 5 songs. There is a funny story behind the project",
         tag: "#webpage",
+        techs: "JavaScript",
+    },
+
+
+    {
+        id: 9,
+        link: "https://melvinmanni.github.io/Food-farming/",
+        title: "Food Frming",
+        description: "A sample landing page UI design symplytammy",
+        tag: "#website",
         techs: "JavaScript",
     }
 

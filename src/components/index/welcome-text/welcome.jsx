@@ -4,17 +4,17 @@ import React from 'react';
 
 
 
-function Welcome(){
+function Welcome() {
 
     return <div>
         <div className="welcome">
             <div className="circleAnimation">
-                
+
             </div>
 
             <div className="welcome__mainText">
                 <p>
-                    Hi there, I'm 
+                    Hi there, I'm
                 </p>
             </div>
 
@@ -27,21 +27,21 @@ function Welcome(){
             </div>
 
             <div className="welcome__mainText welcome__mainText2">
-               <p>
-                    A Software Enginner <span className="welcome--color">..<span className="welcome--blink">.</span></span>
-               </p>
+                <p>
+                    A Software Engineer<span className="welcome--color">..<span className="welcome--blink">.</span></span>
+                </p>
             </div>
 
 
             <div className="welcome__about">
-               <a href="/about">
+                <a href="/about">
                     My Story<i class="fas fa-external-link-alt"></i>
-               </a>
+                </a>
             </div>
 
             <div className="welcome__btnText ">
                 <p>
-                    Hire me lets build an online presence for your dreams and business 
+                    Hire me lets build an online presence for your dreams and business
                 </p>
             </div>
 
@@ -59,7 +59,7 @@ function Welcome(){
                 </a>
             </div>
         </div>
-    </div>    
+    </div>
 
 }
 
