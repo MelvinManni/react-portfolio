@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../navBar/navBar';
-import Welcome from './../welcome';
-import Projects from './../projects/projects';
+import Welcome from './welcome-text/welcome';
+import Projects from './projects/projects';
 import Contact from './../contact/contact';
-import Footer from './../footer';
-import Stack from './../stack';
-import Top from './../toTop';
+import Footer from '../footer/footer';
+import Stack from './stack/stack';
+import Top from '../to-Top/toTop';
+import Theme from '../themeToggle/themeBtn';
 
 
 
@@ -37,6 +38,7 @@ function Home() {
             <Contact />
         </section>
         <Top />
+        <Theme />
         <footer>
             <Footer />
         </footer>

@@ -5,6 +5,15 @@
     line-height: 30px;
 }
 
+.fixed-theme{
+    padding: 8px;
+    border-radius: 50% 50% 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 48%;
+    transition: 0.4s ease all;
+}
+
 
 *:focus, *:hover, *:active{
     outline: none;
@@ -273,7 +282,7 @@ input[type=submit]{
 
 .welcome__mainText2{
     position: relative;
-    top: -39px;
+    top: -20px;
 }
 
 .welcome__about{
@@ -281,7 +290,7 @@ input[type=submit]{
     color: #018786;
     padding-top: 10px;
     position: relative;
-    top: -60px;
+    top: -20px;
 }
 
 .welcome__about i{
@@ -290,7 +299,7 @@ input[type=submit]{
 }
 
 .welcome__btnText{
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -336,10 +345,6 @@ input[type=submit]{
     animation-fill-mode: forwards;
 }
 
-/* .project__card:hover{
-    animation: 0.7s card ;
-    
-} */
 .project__title, .project__discription, .project__link{
     padding-bottom: 15px;
     margin: 0;
@@ -414,6 +419,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
     /* height: 60px; */
 }
 
@@ -554,18 +560,35 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
 }
 /* ===MEDIA=== */
 
-@media all and (max-width:800px){
+
+@media all and (max-width:784px){
+    .project__card{
+        width: 100%;
+    }
+
+    .skill-set{
+        flex-direction: column;
+    }
+
+    
+}
+
+
+@media all and (max-width:990px){
     .switcher{
         position: relative;
         right: -10px;
     }
 
     .nav-line{
-        left: -15px ;
+        /* transform: rotate(180deg); */
+        left: 0px ;
+        margin-left: 0;
+        display: none;
     }
 
     .nav-link{
-        margin: 0;
+        margin: 0 !important;
         padding-left: 0 !important;
         /* align-self: flex-start; */
     }
@@ -606,15 +629,6 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
 }
 
 
-@media all and (max-width:640px){
-    .project__card{
-        width: 100%;
-    }
-
-    .skill-set{
-        flex-direction: column;
-    }
-}
 
 
 /* ===ANIMATIONS=== */
@@ -803,5 +817,6 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
     to{
         border-width: 3px;
         border-color: #018787;
+        
     }
 }

@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import Main from './main';
+import React from 'react';
+import Main from './route/main';
 import {  createGlobalStyle, ThemeProvider } from 'styled-components';
-import useTheme from './useState';
-import theme from 'styled-theming';
+import useTheme from './themeToggle/useState';
 // import AddToHomescreen from 'react-add-to-homescreen';
 
 const GlobaStyle = createGlobalStyle `
@@ -16,10 +15,10 @@ const GlobaStyle = createGlobalStyle `
 
     #light{
             color: ${props =>
-    props.theme.mode === 'dark' ? '#e2c41b' : 'black'};
+    props.theme.mode === 'dark' ? '#000' : '#e2c41b'};
     }
 
-     nav .navbar-collapse .navbar-nav .nav-link{
+     nav .navbar-collapse .navbar-nav .nav-link, .project__title{
             color: ${props =>
     props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.896)' : 'black'};
         }
@@ -32,6 +31,18 @@ const GlobaStyle = createGlobalStyle `
     .back-top button{
             color: ${props =>
         props.theme.mode === 'dark' ? '#121212' : '#fff'};
+        }
+    }
+
+    .fixed-theme{
+        background-color: ${props =>
+        props.theme.mode === 'dark' ? '#fff' : 'black'};
+        }
+    }
+
+    .footer__social a {
+        color: ${props =>
+        props.theme.mode === 'dark' ? 'rgba(255, 255, 255, 0.696)' : 'black'};
         }
     }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../navBar/navBar'
-import Footer from '../footer';
+import Footer from '../footer/footer';
 import Skills from './skillset/skills';
 import Contact from '../contact/contact';
 import myStory from './mystory';
-import Top from '../toTop';
+import Top from '../to-Top/toTop';
+import Theme from '../themeToggle/themeBtn';
 
 
 let n = 1080;
@@ -105,7 +106,7 @@ class About extends React.Component {
                  <section>
                      <Contact />
                  </section>
-
+                <Theme />
                  <Top />
             <footer>
                 <Footer />
