@@ -24,8 +24,9 @@ const GlobaStyle = createGlobalStyle `
         }
     }
 
-    nav nav-brand p{
-        
+    #navbar{
+                background-color: ${props =>
+        props.theme.mode === 'dark' ? '#121212' : 'rgb(255, 255, 255)'};
     }
 
     .back-top button{

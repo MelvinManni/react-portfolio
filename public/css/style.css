@@ -59,6 +59,7 @@ button:focus, input:focus{
     border: none;
     transition: 3s ease ;
     display: none;
+    animation: 3s float infinite;
 }
 
 .back-top button i{
@@ -68,6 +69,7 @@ button:focus, input:focus{
 
 
 /* ===NAV=== */
+
 nav{
     width: 100%;
 }
@@ -257,7 +259,7 @@ input[type=submit]{
 }
 
 .welcome {
-    padding-top: 40px;
+    padding-top: 70px;
     padding-left: 30px;
 }
 
@@ -666,7 +668,7 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
     background-color: #01878713;
     border-radius: 80px 80px 0 0; 
     position: absolute;
-    left: 100px;
+    left: 10px;
     top: 100px;
     animation: 4s sideMovement ease-in-out infinite ;
 }
@@ -836,4 +838,20 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
         border-color: #018787;
         
     }
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }

@@ -4,23 +4,44 @@ import Navlogo from './navLogo';
 
 
 
-function Navbar(){
+class Navbar extends React.Component{
 
-    return <div>
-        <nav className="navbar navbar-expand-lg navbar-light " id="navbar navBar">
-            <Navlogo />
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
-                aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+    componentDidMount = ()=>{
+        let navBar = document.getElementById("navbar");
 
-            <Navitems />
-        </nav>
-    </div>
+
+
+        window.addEventListener("scroll", () => {
+            let Offset = window.pageYOffset;
+
+            if (Offset > 120) {
+                navBar.style.opacity = "0.85";
+            } else {
+                navBar.style.opacity = "1";
+            }
+        });
+
+    }
+
+
+    render(){
+        return <div>
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top "  id="navbar">
+                <Navlogo />
+
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+                    aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <Navitems />
+            </nav>
+        </div>
+    }
 }
 
 

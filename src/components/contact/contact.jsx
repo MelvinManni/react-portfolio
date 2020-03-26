@@ -9,7 +9,6 @@ function Contact (){
     return <div>
 
         <div className="relative">
-
             <div className="triangleAnimation">
 
             </div>
