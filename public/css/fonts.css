@@ -42,25 +42,7 @@
 }
 
 @font-face{
-    font-family: 'playfair';
-    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face{
-    font-family: 'playfair';
-    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Medium.ttf");
-    font-weight:500 ;
-}
-
-@font-face{
-    font-family: 'playfair';
-    src: url("./../assets/fonts/Playfair/PlayfairDisplay-SemiBold.ttf");
-    font-weight:600 ;
-}
-
-@font-face{
-    font-family: 'playfair';
-    src: url("./../assets/fonts/Playfair/PlayfairDisplay-Bold.ttf");
-    font-weight:700 ;
+    font-family: 'canon';
+    src: url("./../assets/fonts/IM_Fell_French_Canon_SC/IMFellFrenchCanonSC-Regular.ttf");
+    
 }

@@ -29,6 +29,7 @@ function Projects(){
                     
                     key = {item.id}
                     title = {item.title}
+                    img = {item.src}
                     description = {item.description}
                     link = {item.link}
                     tag = {item.tag}

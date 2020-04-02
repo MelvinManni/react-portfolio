@@ -17,8 +17,10 @@ class Navbar extends React.Component{
 
             if (Offset > 120) {
                 navBar.style.opacity = "0.85";
+                document.querySelector("nav").style.borderBottom = "1px solid"
             } else {
                 navBar.style.opacity = "1";
+                document.querySelector("nav").style.borderBottom = "none"
             }
         });
 

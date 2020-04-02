@@ -72,14 +72,18 @@ button:focus, input:focus{
 
 nav{
     width: 100%;
+    transition: 1s ease all;
 }
 
 .nav-brand{
-    font-family: 'playfair';
-    font-weight: 500;
-    font-size: 22px;
+    font-family: 'canon';
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
 
 }
+
 
 .navbar-light .navbar-toggler,
 .navbar-light .navbar-toggler:focus{
@@ -175,7 +179,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-size: 14px;
+    font-size: 14.5px;
     font-family: 'baloo';
     font-weight: 400;
     transition: 0.6s ease all;
@@ -266,7 +270,7 @@ input[type=submit]{
 }
 
 .welcome__name--blinkBg{
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .welcome--color{
@@ -337,7 +341,7 @@ input[type=submit]{
     width: 49%;
     text-align: center;
     border: 1px solid grey;
-    padding: 10px;
+    padding: 10px 0;
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -359,6 +363,7 @@ input[type=submit]{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.803);
     font-family: 'poppins';
+    padding: 0 10px;
 }
 
 .project__link{
@@ -378,6 +383,13 @@ input[type=submit]{
     flex-direction: row-reverse;
     position: relative;
     top: -4px;
+}
+
+.project__image img{
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 1px;
 }
 
 .project__link a i{

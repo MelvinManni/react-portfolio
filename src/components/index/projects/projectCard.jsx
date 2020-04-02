@@ -12,6 +12,10 @@ function ProjectCard(props){
                 <p>{props.title}</p>
             </div>
 
+            <div className="project__image">
+                <img src={props.img} alt=""/>
+            </div>
+
             <div className="project__discription">
                 <p>{props.description}</p>
             </div>
