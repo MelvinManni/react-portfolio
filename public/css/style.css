@@ -392,6 +392,10 @@ input[type=submit]{
     padding: 0 1px;
 }
 
+.project__description{
+    padding: 0 10px
+}
+
 .project__link a i{
     position: relative;
     top: -8px;
