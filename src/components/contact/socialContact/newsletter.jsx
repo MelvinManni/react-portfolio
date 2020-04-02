@@ -5,7 +5,7 @@ import React from 'react';
 function Newsletter (){
     return <div>
         <div className="contact__newsletter">
-            <form name="Newsletter" method="POST" data-netlify="true">
+            <form action="https://getform.io/f/69daad02-c62e-43d3-a8c4-61d402803bc8" method="POST">
 
                 <label for="news"> <span>
                     <h4>NEWSLETTER</h4>

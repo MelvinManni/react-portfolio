@@ -7,7 +7,7 @@
 
 .fixed-theme{
     padding: 8px;
-    border-radius: 50% 50% 0 0;
+    border-radius: 45% 45% 0 0;
     position: fixed;
     bottom: 0;
     left: 48%;
@@ -216,18 +216,20 @@ input[type=submit]{
     border: none;
     padding: 5px;
     min-width: 100px;
-    height: 35px;
+    height: 45px;
     border-radius: 3px;
     background-color: #018786;
     color: #fff;
     transition: 0.6s ease all;
     font-weight: 500;
     font-family: 'lato';
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)
 }
 
 .btn:hover{
-    background-color: #03dac5c0;
+    background-color: #018787b4;
     color: #fff;
+    transform: translateY(-4px);
 
 }
 
