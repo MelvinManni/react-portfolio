@@ -8,7 +8,7 @@ import Button from './toggle';
 function Theme(){
     return(
            <div className="fixed-theme">
-                < ThemeConsumer >
+                <ThemeConsumer >
                     {theme => (
                         <Button
                             variant="primary"

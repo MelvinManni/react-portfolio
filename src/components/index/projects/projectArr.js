@@ -24,7 +24,7 @@ let projectAr = [
     {
         id: 6,
         src: "./assets/images/projects/sync-blog.png",
-        link: "https://peaceful-harbor-06166.herokuapp.com/",
+        link: "https://syncblog.herokuapp.com/",
         title: "Sync Blog",
         description: "Sync blog is a project created in my quest to learn and be well versed with backend development and APIs. It is a dynamic Multipage Web application built with node.js and MongoDB to persist data.",
         tag: "Web-Application",
