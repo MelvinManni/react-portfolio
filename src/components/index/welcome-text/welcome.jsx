@@ -35,7 +35,7 @@ function Welcome() {
 
             <div className="welcome__about">
                 <a href="/about">
-                    My Story<i class="fas fa-external-link-alt"></i>
+                    My Story<i className="fas fa-external-link-alt"></i>
                 </a>
             </div>
 

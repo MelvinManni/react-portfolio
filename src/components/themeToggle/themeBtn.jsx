@@ -20,7 +20,7 @@ function Theme(){
                                 )
                             }
                         >
-                            <i class="fas fa-lightbulb" id="light"></i>
+                            <i className="fas fa-lightbulb" id="light"></i>
                         </Button>
                     )
                     }

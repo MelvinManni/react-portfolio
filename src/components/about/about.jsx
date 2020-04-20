@@ -94,7 +94,7 @@ class About extends React.Component {
                     <div className="about__portfolio">
                         
                         <a href="/">
-                            My Portfolio<i class="fas fa-external-link-alt"></i>
+                            My Portfolio<i className="fas fa-external-link-alt"></i>
                         </a>
                     </div>
 

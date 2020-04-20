@@ -21,7 +21,7 @@ function ProjectCard(props){
             </div>
 
             <div className="project__link">
-                <a href={props.link} target="_blank" rel="noopener noreferrer" ><i class="fas fa-link"></i><p>Visit Site</p> </a>
+                <a href={props.link} target="_blank" rel="noopener noreferrer" ><i className="fas fa-link"></i><p>Visit Site</p> </a>
             </div>
 
             <div className="project__tag">

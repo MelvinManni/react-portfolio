@@ -10,7 +10,7 @@ function Skills(){
             </p>
 
             <div className="skill-set">
-                <div classNameName="skill-div">
+                <div className="skill-div">
                     <p className="skill-head">HTML <i className="fab fa-html5"></i></p>
                 </div>
 
@@ -34,7 +34,7 @@ function Skills(){
                 </div>
 
                 <div className="skill-div">
-                    <p className="skill-head">Git <i class="fab fa-git-alt"></i></p>
+                    <p className="skill-head">Git <i className="fab fa-git-alt"></i></p>
                 </div>
 
                 <div className="skill-div">
@@ -49,7 +49,7 @@ function Skills(){
 
 
                 <div className="skill-div">
-                    <p className="skill-head">React.Js <i class="fab fa-react"></i></p>
+                    <p className="skill-head">React.Js <i className="fab fa-react"></i></p>
 
                 </div>
 

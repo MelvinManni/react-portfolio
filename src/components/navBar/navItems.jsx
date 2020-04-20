@@ -8,7 +8,7 @@ function Navitems() {
         <div className="collapse navbar-collapse" id="toggleNav">
 
             <ul className="navbar-nav ml-auto">
-                <li classNameName="nav-item">
+                <li className="nav-item">
                     <a className="nav-link" href="/">Home</a>
                     
                     <div className="nav-line">
