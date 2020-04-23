@@ -23,7 +23,9 @@ function Footer(){
                     <i className="fab fa-instagram"></i>
                 </a>
 
-                
+                <a href="https://dev.to/melvinmanni">
+                    <i class="fab fa-dev" title="melvinmanni's DEV Profile"></i>
+                </a>
             </div>
 
             <p className="footer__text">
