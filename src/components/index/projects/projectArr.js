@@ -31,6 +31,17 @@ let projectAr = [
         techs: "Node.js Ejs",
     },
 
+
+    {
+        id: 1,
+        link: "https://melvinmanni.github.io/ionic-cgpa-calculator/",
+        src: "./assets/images/projects/cgpa-calculator.png",
+        title: "CGPA Calculator",
+        description: "I have always found it a bit tedious calculating CGPA manually so i thought of a way to use what i love doing to make things a little easier for me. :)",
+        tag: "Web-Application Cordova",
+        techs: "Jquery Ionic",
+    },
+
     {
         id: 7,
         src:"./assets/images/projects/HugoFx.png",

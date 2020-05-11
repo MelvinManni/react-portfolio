@@ -603,10 +603,6 @@ nav .navbar-collapse .navbar-nav .nav-link:hover ~ .nav-line{
         width: 100%;
     }
 
-    .skill-set{
-        flex-direction: column;
-    }
-
     
 }
 
