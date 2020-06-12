@@ -62,6 +62,17 @@ let projectAr = [
         techs: "JavaScript",
     },
 
+    
+    {
+        id: 8,
+        src:"./assets/images/projects/tv-mood.png",
+        link: "https://tv-mood.netlify.app/",
+        title: "Tv-mood",
+        description: "Movie description/review web application template built with create-react-app",
+        tag: "#web-application",
+        techs: "Reactjs Redux Axios",
+    },
+
 
 ]
 
