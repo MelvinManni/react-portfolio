@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import storage from 'local-storage-fallback';
 
 export default function useTheme(
     defaultTheme = { mode: 'light', textZoom: 'normal' }
 ) {
-    const [theme, _setTheme] = useState(getInitialTheme);
+    const [theme, _setTheme] = React.useState(getInitialTheme);
 
     function getInitialTheme() {
         const savedTheme = storage.getItem('theme');
@@ -13,7 +13,7 @@ export default function useTheme(
             : defaultTheme;
     }
 
-    useEffect(
+    React.useEffect(
         () => {
             storage.setItem('theme', JSON.stringify(theme));
         },
